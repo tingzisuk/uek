@@ -1,0 +1,386 @@
+/*
+* @Author: DELL
+* @Date:   2017-04-10 08:43:55
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-04-11 09:04:31
+*/
+/*
+* @Author: DELL
+* @Date:   2017-04-10 21:33:46
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-04-10 21:48:13
+*/
+/*
+* @Author: DELL
+* @Date:   2017-04-10 20:52:43
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-04-10 21:32:39
+*/
+*{
+	font-size: 0.3rem;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	color: #999;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	color: #6C6C6C;
+	background: #F5F6FA;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+/* 头部开始 */
+.header {
+	width:10.80rem;
+	height: 1.3rem;
+	background: rgb(0, 123, 227);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 30;
+	overflow: hidden;
+}
+.header ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.header ul li{
+	width: 20%;
+	height: 100%;
+	text-align: center;
+}
+.header ul li a{
+	line-height: 1.3rem;
+	color: #fff;
+	font-size: 0.46rem;
+}
+/* .header .logo{
+	display: block;
+	background-image: url('../img/logo.png');
+    float: left;
+}
+.header h3{
+	display: block;
+	float: left;
+	font-size: 16px;
+	color: white;
+	margin-left: 0.16rem;
+} */
+/* 头部结束 */
+
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height:6rem;
+	background: url('../img/bg5.jpg') no-repeat center center;
+	background-size: cover;
+	/* padding-top: 1.3rem; */
+	overflow: hidden;
+	position: relative;
+}
+/* banner结束 */
+
+
+/* 内容开始 */
+.content{
+	width: 100%;
+	height: auto;
+}
+.top{
+	width: 100%;
+	height: 1.3rem;
+	padding-left: 0.35rem;
+	line-height: 1.3rem;
+}
+.top a{
+	width: 0.8rem;
+	height: 100%;
+	color: #494747;
+	float: left;
+}
+.top span{
+	width: auto;
+	height: auto;
+	float: left;
+}
+.top .a1{
+	width: auto;
+}
+.nei{
+	width: 10.1rem;
+	height: 26rem;
+	background: #fff;
+	margin: 0 auto;
+	padding: 0.5rem 0.3rem;
+	box-sizing: border-box;
+}
+.nei .p1{
+	width: 100%;
+	height:6.5rem;
+}
+.nei .p1 .title{
+	width: 2.5rem;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.nei .p1 .title div{
+	width: auto;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+.nei .p1 .title div span{
+	margin: 0 0.1rem;
+}
+.nei .p1 .line{
+	width: 1.2rem;
+	height: 0.03rem;
+	background: #666;
+	margin: 0.6rem auto;
+}
+.nei .p1 .m{
+	width: 100%;
+	height: 0.5rem;
+	margin: 0 auto;
+	text-align: center;
+}
+.nei .p1 .m span{
+	font-size: 0.28rem;
+	width: auto;
+	height: auto;
+	margin-right: 0.06rem;
+}
+.nei .p1 .p{
+	font-size: 0.36rem;
+	width: 100%;
+	height: auto;
+	margin-top: 0.3rem;
+	line-height: 0.6rem;
+}
+.nei .p1 .s{
+	width: 100%;
+	height: auto;
+	margin-top: 0.3rem;
+	padding-top: 0.15rem 0 0.3rem;
+	border-bottom: 0.03rem solid #666;
+	border-top: 0.03rem solid #666;
+	overflow: hidden;
+}
+.nei .p1 .s ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding-bottom: 0.3rem;
+}
+.nei .p1 .s ul li:nth-child(1){
+	width: 2.1rem;
+	height: 1.7rem;
+	overflow: hidden;
+}
+.nei .p1 .s ul li:nth-child(2){
+	width:4.1rem;
+	height: 1.7rem;
+	overflow: hidden;
+}
+.nei .p1 .s ul li:nth-child(3){
+	width: 3.4rem;
+	height: 1.7rem;
+	overflow: hidden;
+}
+.nei .p1 .s ul li div{
+	font-size: 0.36rem;
+	text-align: center;
+}
+.nei .p1 .s ul li p{
+	font-size: 0.36rem;
+	text-align: left;
+	line-height: 0.7rem;
+}
+.nei .p2{
+	margin-top: 1.5rem;
+}
+.nei .p2 p{
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.3rem;
+	font-size: 0.36rem;
+}
+.nei .p2 .tu{
+	width: 7.6rem;
+	height: 2.6rem;
+	margin: 4.2rem auto 0;
+}
+.nei .p2 .tu img{
+	width: 3.2rem;
+	height: 2.6rem;
+	margin-right: 0.6rem;
+	display: block;
+	float: left;
+}
+.nei .p3{
+	margin-top: 4.1rem;
+}
+.box5{
+	width: 100%;
+	height:2.1rem;
+	border-bottom: 0.03rem solid #666;
+	border-top: 0.03rem solid #666;
+	margin-top: 0.5rem;
+}
+.box5 .box1{
+	width: 22%;
+	height: 100%;
+	font-size: 0.8rem;
+	text-align: center;
+	line-height:2.1rem;
+	float: left;
+}
+.box5 .box8{
+	width: 35%;
+	height: 100%;
+	font-size: 0.36rem;
+	float: left;
+	line-height: 0.6rem;
+	margin-top: 0.15rem;
+}
+.box5 .box6{
+	width:8%;
+	height: 70%;
+	font-size: 0.12rem;
+	float: left;
+}
+.box5 .box6 img{
+	width: 50%;
+	height: 50%;
+	margin: 83% 0.5em;
+}
+.box7{
+	width: 100%;
+	height: 1.4rem;
+	border-bottom: 0.03rem solid #666;
+}
+.box7 .box:nth-child(1){
+	width: 20%;
+	height: 100%;
+	font-size:0.8rem;
+	text-align: center;
+	line-height:1.2rem;
+	float: left;
+}
+.box7 .box:nth-child(2){
+	width: 40%;
+	height: 100%;
+	font-size: 0.36rem;
+	text-align: center;
+	line-height:1.2rem;
+	float: left;
+}
+
+
+/* 版权开始 */
+.ban{
+	width: 100%;
+	height: 1.24rem;
+	text-align: center;
+	line-height: 0.64rem;
+	padding: 0.1rem 0;
+	margin-top:0.2rem;
+}
+/* 版权结束 */
+
+
+/* xu */
+.xu{
+	width: 100%;
+	height: 1.35rem;
+}
+
+
+/* 咨询开始 */
+.q{
+	width: 100%;
+	height: 1.32rem;
+	background: #E7E7E7;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+}
+.q a:nth-child(1){
+	width: 30%;
+	height: 1.32rem;
+}
+.q a:nth-child(1) span{
+	font-size: 0.38rem;
+	width: 1.5rem;
+	height: 1.32rem;
+	margin-left: 0.15rem;
+	line-height: 1.32rem;
+}
+.q a:nth-child(1) div{
+	width: 0.52rem;
+	height: 0.52rem;
+	margin-top: 0.41rem;
+	margin-left: 0.396rem;
+	background: url('../img/qq.png') center center no-repeat;
+	background-size: cover;
+	float: left;
+}
+.q a:nth-child(2){
+	display: block;
+	width: 40%;
+	height: 1.32rem;
+	background: #FF8D12;
+	position: relative;
+	left: 0;
+	bottom: 0.16rem;
+	border-radius: 0.12rem;
+	line-height: 1.32rem;
+	box-shadow: 0 0 0.15rem #ff8d12;
+}
+.q a:nth-child(2) span{
+	margin-left: 0.3rem;
+	font-size: 0.42rem;
+	color: #fff;
+}
+.q a:nth-child(2) div{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-top: 0.4rem;
+	margin-left: 0.8rem;
+	background: url('../img/p.png') -2.5rem -7.66rem no-repeat;
+	background-size: 3.2rem;
+	float: left;
+}
+.q a:nth-child(3){
+	width: 30%;
+	height: 1.32rem;
+}
+.q a:nth-child(3) span{
+	font-size: 0.38rem;
+	width: 0.52rem;
+	height:1.32rem;
+	margin-left: 0.15rem;
+	line-height: 1.32rem;
+}
+.q a:nth-child(3) div{
+	width: 0.52rem;
+	height: 0.52rem;
+	margin-top: 0.41rem;
+	margin-left: 0.396rem;
+	background: url('../img/p.png') -2.4rem -7.98rem no-repeat;
+	background-size: 3rem;
+	float: left;
+}
+/* 咨询结束 */
+
+

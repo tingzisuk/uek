@@ -1,0 +1,1215 @@
+/*
+* @Author: DELL
+* @Date:   2017-04-07 19:20:42
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-04-10 13:44:29
+*/
+*{
+	font-size: 0.3rem;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	color: #999;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	color: #6C6C6C;
+	background: #F5F6FA;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+/* 头部开始 */
+.header {
+	width:10.80rem;
+	height: 1.3rem;
+	background: rgb(0, 123, 227);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 30;
+}
+.header ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.header ul li{
+	width: 20%;
+	height: 100%;
+	text-align: center;
+}
+.header ul li a{
+	line-height: 1.3rem;
+	color: #fff;
+	font-size: 0.46rem;
+}
+/* .header .logo{
+	display: block;
+	background-image: url('../img/logo.png');
+    float: left;
+}
+.header h3{
+	display: block;
+	float: left;
+	font-size: 16px;
+	color: white;
+	margin-left: 0.16rem;
+} */
+/* 头部结束 */
+
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 7.2rem;
+	background: url('../img/bg3.png') no-repeat center center;
+	background-size: cover;
+	/* padding-top: 1.3rem; */
+	overflow: hidden;
+	position: relative;
+}
+.banner a{
+	font-size: 0.4rem;
+	display: block;
+	width: 3rem;
+	height: 0.8rem;
+	background: url('../img/z1.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	bottom: 0.56rem;
+	left: 3.86rem;
+	color: #fff;
+	line-height: 0.75rem;
+	text-align: center;
+}
+/* banner结束 */
+
+
+/* php开始 */
+.php{
+	width: 100%;
+	height: 8.3rem;
+}
+.php .title{
+	width: 100%;
+	height:1.5rem;
+	background: #fff;
+	padding: 0.25rem 0;
+	box-shadow: 0 0.14rem 0.12rem rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.php .num{
+	width: 0.94rem;
+	height: 1.2rem;
+	background: url('../img/01.png') center center no-repeat;
+	background-size: 100%;
+	margin-left: 2.9rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.php .b{
+	width: 1.6rem;
+	height: 1.3rem;
+	background: url('../img/b.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.32rem;
+	left: 3.3rem;
+}
+.php .title h2{
+	width: 5rem;
+	height: 0.5rem;
+	color: #333;
+	font-size: 0.5rem;
+	display: block;
+	float: left;
+	margin:0.44rem 0.36rem; 
+}
+.php .title h2 span{
+	width: 1.56rem;
+	height: 0.5rem;
+	font-size: 0.5rem;
+	font-weight: normal;
+}
+.php .title .bb{
+	width: 1.8rem;
+	height: 0.2rem;
+	background: url('../img/bb.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 1.4rem;
+	left: 6.3rem;
+}
+.php .nei{
+	width: 10.1rem;
+	height:6.3rem;
+	margin: 0.72rem auto 0;
+}
+.php .nei div p{
+	color: #333;
+}
+.php .nei div:nth-child(1){
+	width: 8.82rem;
+	height: 4.1rem;
+	border: 0.03rem solid #1bbf99;
+	border-top: 0;
+	margin: -0.7rem auto 0;
+	padding: 0.7rem 0.6rem;
+}
+.php .nei div:nth-child(2){
+	width: 9.9rem;
+	height: 0.06rem;
+	border: 0.03rem solid #1bbf99;
+	border-top: 0;
+	margin: 0rem auto;
+}
+.php .nei div:nth-child(3){
+	width: 9.8rem;
+	height: 0.06rem;
+	border: 0.03rem solid #1bbf99;
+	border-top: 0;
+	margin:0rem auto;
+}
+.php .nei div:nth-child(1) p{
+	width: 100%;
+	height: auto;
+	margin-top: 0.36rem;
+}
+/* php结束 */
+
+
+/* 服务开始 */
+.fu{
+	width: 100%;
+	height: auto;
+}
+.fu .title{
+	width: 100%;
+	height:1.5rem;
+	background: #fff;
+	padding: 0.25rem 0;
+	box-shadow: 0 0.14rem 0.12rem rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-bottom: 0.35rem;
+}
+.fu .num{
+	width: 0.94rem;
+	height: 1.2rem;
+	background: url('../img/02.png') center center no-repeat;
+	background-size: 100%;
+	margin-left: 2.9rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.fu .b{
+	width: 1.6rem;
+	height: 1.3rem;
+	background: url('../img/b.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.32rem;
+	left: 3.3rem;
+	z-index: 0;
+}
+.fu .title h2{
+	width: 5rem;
+	height: 0.5rem;
+	color: #333;
+	font-size: 0.5rem;
+	display: block;
+	float: left;
+	margin:0.44rem 0.22rem; 
+}
+.fu .title h2 span{
+	width: 1.56rem;
+	height: 0.5rem;
+	font-size: 0.5rem;
+	font-weight: normal;
+}
+.fu .title .bb{
+	width: 1.8rem;
+	height: 0.2rem;
+	background: url('../img/bb.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 1.4rem;
+	left: 7.4rem;
+}
+.fu ul{
+	width: 100%;
+	height: 3.9rem;
+	padding: 0 0.38rem;
+	box-sizing: border-box;
+	display: flex;
+	/* justify-content: space-around; */
+}
+.fu ul li{
+	width: 33.33%;
+	height: 3.54rem;
+	margin:0 0.14rem 0.36rem ;
+	/* background: red; */
+	box-sizing: border-box;
+}
+.fu ul li div{
+	width: 100%;
+	height: 1.44rem;
+	padding-left: 1.16rem;
+	box-sizing: border-box;
+	line-height: 1.44rem;
+	color: white;
+	font-size: 0.4rem;
+}
+.fu .ul li:nth-child(1) div{
+	background: url('../img/ling.png') no-repeat;
+	background-size: cover;
+}
+.fu .ul li:nth-child(2) div{
+	background: url('../img/mian.png') no-repeat;
+	background-size: cover;
+}
+.fu .ul li:nth-child(3) div{
+	background: url('../img/jiu.png') no-repeat;
+	background-size: cover;
+}
+.fu .ul1 li:nth-child(1) div{
+	background: url('../img/ke.png') no-repeat;
+	background-size: cover;
+}
+.fu .ul1 li:nth-child(2) div{
+	background: url('../img/ti.png') no-repeat;
+	background-size: cover;
+}
+.fu .ul1 li:nth-child(3) div{
+	background: url('../img/gao.png') no-repeat;
+	background-size: cover;
+}
+.fu ul li p{
+	width: 100%;
+	height: 2.02rem;
+	border: 1px dashed #f2a111;
+	box-sizing: border-box;
+	margin-top: 0.05rem;
+	padding-top: 0.3rem;
+	text-align: center;
+}
+.fu .ul li:nth-child(2) p{
+	border: 1px dashed #2f90da;
+}
+.fu .ul li:nth-child(3) p{
+	border: 1px dashed #f87844;
+}
+.fu .ul1 li:nth-child(1) p{
+	border: 1px dashed #1bbf99;
+}
+.fu .ul1 li:nth-child(2) p{
+	border: 1px dashed #f8ce68;
+}
+.fu .ul1 li:nth-child(3) p{
+	border: 1px dashed #c16bbb;
+}
+/* 服务结束 */
+
+
+/* 就业开始 */
+.work{
+	width: 100%;
+	height: auto;
+}
+.work .title{
+	width: 100%;
+	height:1.5rem;
+	background: #fff;
+	padding: 0.25rem 0;
+	box-shadow: 0 0.14rem 0.12rem rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-bottom: 0.35rem;
+}
+.work .num{
+	width: 0.94rem;
+	height: 1.2rem;
+	background: url('../img/03.png') center center no-repeat;
+	background-size: 100%;
+	margin-left: 2.9rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.work .b{
+	width: 1.6rem;
+	height: 1.3rem;
+	background: url('../img/b.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.32rem;
+	left: 3.3rem;
+	z-index: 0;
+}
+.work .title h2{
+	width: 5rem;
+	height: 0.5rem;
+	color: #333;
+	font-size: 0.5rem;
+	display: block;
+	float: left;
+	margin:0.44rem 0.7rem; 
+}
+.work .title .bb{
+	width: 1.8rem;
+	height: 0.2rem;
+	background: url('../img/bb.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 1.4rem;
+	left: 6.4rem;
+}
+.work .shu{
+	width: 100%;
+	height: auto;
+	background: #1b1d32;
+	margin-top: -0.3rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.07rem;
+}
+.work .shu .ti{
+	width: 5.4rem;
+	height: 1.05rem;
+	color: #00c298;
+	border-bottom: 1px dashed #fff;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0.42rem;
+	line-height: 0.9rem;
+/* 	border-bottom: 1px solid #fff; */
+}
+.work .shu .ti .l{
+	width: 100%;
+	height: 1px;
+	background: #fff;
+}
+.work .shu .ju{
+	width:10.1rem; 
+	height: 6.4rem;
+	margin:1rem 0.3rem 0;
+}
+.work .shu .ju .left{
+	width: 4.9rem;
+	height: 6.3rem;
+	border: 0.03rem solid #fff;
+	float: left;
+}
+.work .shu .ju .left p{
+	color: #fff;
+	width: 100%;
+	height: 0.47rem;
+	padding: 0.35rem 0.68rem 0;
+}
+.work .shu .ju .left span{
+	color: #e47749;
+}
+.work .shu .ju .left img{
+	width: 100%;
+}
+.work .shu .ju .left div{
+	color: #fff;
+	width: 100%;
+	height: 1.64rem;
+	border-top: 0.03rem solid #fff;
+	text-align: center;
+	padding: 0.25rem 0.2rem;
+	box-sizing: border-box;
+	margin-top: 0.3rem;
+}
+.work .shu .ju .right{
+	width: 4.9rem;
+	height: 6.3rem;
+	border:0.03rem solid #fff;
+	float: right;
+}
+.work .shu .ju .right p{
+	color: #fff;
+	width: 100%;
+	height: 0.47rem;
+	padding: 0.35rem 0.68rem 0;
+}
+.work .shu .ju .right span{
+	color: #e47749;
+}
+.work .shu .ju .right img{
+	width: 100%;
+}
+.work .shu .ju .right div{
+	font-size: 0.26rem;
+	color: #fff;
+	width: 100%;
+	height: 1.64rem;
+	border-top: 0.03rem solid #fff;
+	text-align: center;
+	padding: 0.25rem 0.2rem;
+	box-sizing: border-box;
+	margin-top: 0.3rem;
+}
+.work .shu a{
+	display: block;
+	width:4.36rem;
+	height: 1.18rem;
+	background: url('../img/more.png') no-repeat;
+	background-size: 100%; 
+	margin: 0.6rem auto;
+	font-size: 0.38rem;
+	color: white;
+	text-align: center;
+	line-height: 1.18rem;
+}
+/* 就业结束 */
+
+
+/* 学员信息开始 */
+.xue{
+	width: 100%;
+	height: auto;
+}
+.xue .title{
+	width: 100%;
+	height:1.5rem;
+	background: #fff;
+	padding: 0.25rem 0;
+	box-shadow: 0 0.14rem 0.12rem rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-bottom: 0.35rem;
+}
+.xue .num{
+	width: 0.94rem;
+	height: 1.2rem;
+	background: url('../img/04.png') center center no-repeat;
+	background-size: 100%;
+	margin-left: 2.9rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.xue .b{
+	width: 1.6rem;
+	height: 1.3rem;
+	background: url('../img/b.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.32rem;
+	left: 3.3rem;
+	z-index: 0;
+}
+.xue .title h2{
+	width: 5rem;
+	height: 0.5rem;
+	color: #333;
+	font-size: 0.5rem;
+	display: block;
+	float: left;
+	margin:0.44rem 0.56rem; 
+}
+.xue .title .bb{
+	width: 1.8rem;
+	height: 0.2rem;
+	background: url('../img/bb.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 1.4rem;
+	left: 6rem;
+}
+.xue .nei{
+	width:10.1rem;
+	height: 5.9rem; 
+	margin: 0.57rem auto;
+}
+.xue .nei .ti{
+	width: 100%;
+	height: 0.9rem;
+	background: white;
+	display: flex;
+}
+.xue .nei .ti p{
+	width: 1.88rem;
+	height: 0.9rem;
+	background: #40abfd;
+	text-align: center;
+	border-radius: 0.15rem 0.15rem 0 0;
+	color: #fff;
+	line-height: 0.9rem;
+}
+.xue .nei .ti p:nth-child(2){
+	width: 2.6rem;
+	height: 0.9rem;
+	background: #219eff;
+}
+.xue .nei .ti p:nth-child(3){
+	width: 5.62rem;
+	height: 0.9rem;
+	background: #118ded;
+}
+.xue .nei .in{
+	width: 100%;
+	height: 5rem;	
+}
+.xue .nei .in ul{
+	border: 1px solid #1875ff;
+	background: #F5F6FA;
+}
+.xue .nei .in ul li{
+	width: 100%;
+	height: 1rem;
+}
+.xue .nei .in ul .li{
+	background: rgb(238, 238, 238);
+}
+.xue .nei .in ul li p{
+	font-size: 0.35rem;
+	float: left;
+	width: 1.88rem;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	white-space: nowrap;
+}
+.xue .nei .in ul li p:nth-child(2){
+	width: 2.6rem;
+	color: #feaf34;
+}
+.xue .nei .in ul li p:nth-child(3){
+	width: 5.56rem;
+}
+.xue a{
+	display: block;
+	width:4.36rem;
+	height: 1.18rem;
+	background: url('../img/more.png') no-repeat;
+	background-size: 100%; 
+	margin: 0.6rem auto;
+	font-size: 0.38rem;
+	color: white;
+	text-align: center;
+	line-height: 1.18rem;
+}
+/* 学员信息结束 */
+
+
+/* 课程开始 */
+.ke{
+	width: 100%;
+	height: auto;
+	background: #1b1d32;
+}
+.ke .title{
+	width: 100%;
+	height:1.5rem;
+	background: #fff;
+	padding: 0.25rem 0;
+	box-shadow: 0 0.14rem 0.12rem rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-bottom: 0.35rem;
+}
+.ke .num{
+	width: 0.94rem;
+	height: 1.2rem;
+	background: url('../img/05.png') center center no-repeat;
+	background-size: 100%;
+	margin-left: 2.9rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.ke .b{
+	width: 1.6rem;
+	height: 1.3rem;
+	background: url('../img/b.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.32rem;
+	left: 3.3rem;
+	z-index: 0;
+}
+.ke .title h2{
+	width: 5rem;
+	height: 0.5rem;
+	color: #333;
+	font-size: 0.5rem;
+	display: block;
+	float: left;
+	margin:0.44rem 0.56rem; 
+}
+.ke .title h2 span{
+	width: 1.56rem;
+	height: 0.5rem;
+	font-size: 0.5rem;
+	font-weight: normal;
+}
+.ke .title .bb{
+	width: 1.8rem;
+	height: 0.2rem;
+	background: url('../img/bb.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 1.4rem;
+	left: 7rem;
+}
+.ke .nei{
+	width:10.1rem;
+	height: auto; 
+	margin: 0 auto;
+	overflow: hidden;
+}
+.ke .nei ul{
+	display: block;
+	width: 8.7rem;
+	height: auto;
+	padding-top: 0.46rem;
+	float: right;
+	margin-right: 0.1rem;
+}
+.ke .nei ul li{
+	width: 8.7rem;
+	height: auto;
+	margin-top: 0.2rem;
+	position: relative;
+}
+.ke .nei ul li:nth-child(1) span{
+	color: #ffd300;
+	border-bottom: 0.06rem dotted #ffd300;
+}
+.ke .nei ul li:nth-child(3) span{
+	color: #87bf7f;
+	border-bottom: 0.06rem dotted #87bf7f;
+}
+.ke .nei ul li:nth-child(4) span{
+	color: #1fa4db;
+	border-bottom: 0.06rem dotted #1fa4db;
+}
+.ke .nei ul li:nth-child(2) span{
+	color: #dd534e;
+	border-bottom: 0.06rem dotted #dd534e;
+}
+.ke .nei ul li:nth-child(5) span{
+	color: #f6ce64;
+	border-bottom: 0.06rem dotted #f6ce64;
+}
+.ke .nei ul li:nth-child(6) span{
+	color: #a86baa;
+	border-bottom: 0.06rem dotted #a86baa;
+}
+.ke .nei ul li span{
+	font-size: 0.4rem;
+	color: #E9E9EB;
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	line-height: 0.4rem;
+}
+.ke .nei ul li p{
+	color: #E9E9EB;
+	font-size: 0.28rem;
+	padding:0.2rem 0;
+	line-height: 0.6rem;
+	text-align: justify;
+}
+.ke .nei .l{
+	width: 0.5rem;
+	height: 11rem;
+	border-right: 0.03rem solid #ffd300;
+	float: left;
+	margin-top: 1rem;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.ke .nei ul li div{
+	width: 0.68rem;
+	height: 0.68rem;
+	border: 0.06rem solid #ffd300;
+	background: #1B1D32;
+	position: absolute;
+	top: -0.2rem;
+	left: -1.2rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.68rem;
+	font-size: 0.4rem;
+}
+.ke .nei ul li:nth-child(2) div{
+	border-color: #dd534e;
+}
+.ke .nei ul li:nth-child(3) div{
+	border-color: #87bf7f;
+}
+.ke .nei ul li:nth-child(4) div{
+	border-color: #1fa4db;
+}
+.ke .nei ul li:nth-child(5) div{
+	border-color: #f6ce64;
+}
+.ke .nei ul li:nth-child(6) div{
+	border-color: #a86baa;
+}
+/* 课程结束 */
+
+
+/* 方向开始 */
+.fang{
+	width: 100%;
+	height: auto;
+}
+.fang .title{
+	width: 100%;
+	height:1.5rem;
+	background: #fff;
+	padding: 0.25rem 0;
+	box-shadow: 0 0.14rem 0.12rem rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-bottom: 0.35rem;
+}
+.fang .num{
+	width: 0.94rem;
+	height: 1.2rem;
+	background: url('../img/06.png') center center no-repeat;
+	background-size: 100%;
+	margin-left: 2.9rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.fang .b{
+	width: 1.6rem;
+	height: 1.3rem;
+	background: url('../img/b.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.32rem;
+	left: 3.3rem;
+	z-index: 0;
+}
+.fang .title h2{
+	width: 5rem;
+	height: 0.5rem;
+	color: #333;
+	font-size: 0.5rem;
+	display: block;
+	float: left;
+	margin:0.44rem 0.56rem; 
+}
+.fang .title h2 span{
+	width: 1.56rem;
+	height: 0.5rem;
+	font-size: 0.5rem;
+	font-weight: normal;
+}
+.fang .title .bb{
+	width: 1.8rem;
+	height: 0.2rem;
+	background: url('../img/bb.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 1.4rem;
+	left: 7rem;
+}
+.fang .nei{
+	width:10.1rem;
+	height: auto; 
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0.6rem 1rem;
+}
+.fang .nei div{
+	width: 2.98rem;
+	height: 1.4rem;
+	background: url('../img/php.png') center center no-repeat;
+	background-size: 100%;
+	margin-left: 1rem;
+	float: left;
+	text-align: right;
+	line-height: 1.56rem;
+	padding-right: 0.42rem;
+}
+.fang .nei div:nth-child(2){
+	width: 3.4rem;
+	background: url('../img/php2.png') center center no-repeat;
+	background-size: 100%;
+}
+.fang .nei div:nth-child(3){
+	margin-left: 3.4rem;
+	background: url('../img/php3.png') center center no-repeat;
+	background-size: 100%;
+}
+.fang .nei div:nth-child(4){
+	width: 3.4rem;
+	background: url('../img/php4.png') center center no-repeat;
+	background-size: 100%;
+}
+.fang .nei div:nth-child(5){
+	background: url('../img/php5.png') center center no-repeat;
+	background-size: 100%;
+}
+.fang .nei div:nth-child(6){
+	width: 3.8rem;
+	margin-left: 3.4rem;
+	background: url('../img/php6.png') center center no-repeat;
+	background-size: 100%;
+}
+/* 方向结束 */
+
+
+/* 顾虑开始 */
+.gu{
+	width: 100%;
+	height: auto;
+	background: #1b1d32;
+	padding-bottom: 0.66rem;
+}
+.gu .title{
+	width: 100%;
+	height:1.5rem;
+	background: #fff;
+	padding: 0.25rem 0;
+	box-shadow: 0 0.14rem 0.12rem rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-bottom: 0.35rem;
+}
+.gu .num{
+	width: 0.94rem;
+	height: 1.2rem;
+	background: url('../img/07.png') center center no-repeat;
+	background-size: 100%;
+	margin-left: 2.9rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.gu .b{
+	width: 1.6rem;
+	height: 1.3rem;
+	background: url('../img/b.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.32rem;
+	left: 3.3rem;
+	z-index: 0;
+}
+.gu .title h2{
+	width: 5rem;
+	height: 0.5rem;
+	color: #333;
+	font-size: 0.5rem;
+	display: block;
+	float: left;
+	margin:0.44rem 0.56rem; 
+}
+.gu .title .bb{
+	width: 1.8rem;
+	height: 0.2rem;
+	background: url('../img/bb.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 1.4rem;
+	left: 7rem;
+}
+.gu .nei{
+	width:100%;
+	height: 4.8rem; 
+	margin: 1.2rem auto 0;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.gu .nei div{
+	width: 2.6rem;
+	height: 4.5rem;
+	background: url('../img/r3.png') center center no-repeat;
+	background-size: 100%;
+	float: left;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.28rem;
+}
+.gu .nei ul{
+	width: 8.3rem;
+	height: 4.2rem;
+	border: 0.03rem solid #ffd300;
+	margin-left: 1.6rem;
+	margin-top: 0.35rem;
+}
+.gu .nei ul li{
+	color: #fff;
+	width: 6rem;
+	height: 0.8rem;
+	border-bottom: 0.03rem dotted #ffd300;
+	padding-left: 1.7rem;
+	line-height: 0.8rem;
+}
+.gu .nei ul li a{
+	color: #fff;
+}
+.gu .nei ul li:last-child{
+	border: 0;
+}
+.gu>a{
+	display: block;
+	width:4.36rem;
+	height: 1.18rem;
+	background: url('../img/more.png') no-repeat;
+	background-size: 100%; 
+	margin: 0.6rem auto 0;
+	font-size: 0.38rem;
+	color: white;
+	text-align: center;
+	line-height: 1.18rem;
+}
+/* 顾虑结束 */
+
+
+/* 试学开始 */
+/* .xue .nei{
+	width:10.1rem;
+	height: 5.9rem; 
+	margin: 0.57rem auto;
+} */
+.shi{
+	width: 100%;
+	height: auto;
+	padding-bottom: 0.66rem;
+}
+.shi .title{
+	width: 100%;
+	height:1.5rem;
+	background: #fff;
+	padding: 0.25rem 0;
+	box-shadow: 0 0.14rem 0.12rem rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-bottom: 0.35rem;
+}
+.shi .num{
+	width: 0.94rem;
+	height: 1.2rem;
+	background: url('../img/08.png') center center no-repeat;
+	background-size: 100%;
+	margin-left: 1.8rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.shi .b{
+	width: 1.6rem;
+	height: 1.3rem;
+	background: url('../img/b.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.32rem;
+	left: 2.2rem;
+	z-index: 0;
+}
+.shi .title h2{
+	width: 6rem;
+	height: 0.5rem;
+	color: #333;
+	font-size: 0.5rem;
+	display: block;
+	float: left;
+	margin:0.44rem 0.56rem; 
+}
+.shi .title .bb{
+	width: 1.8rem;
+	height: 0.2rem;
+	background: url('../img/bb.png') center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 1.4rem;
+	left: 8rem;
+}
+.shi .g{
+	width: 100%;
+	height: 1.12rem;
+	text-align: center;
+	line-height: 1.12rem;
+	color: #000;
+	font-size: 0.38rem;
+}
+.shi .dan{
+	width: 100%;
+	height: 7.6rem;
+	/* background: green; */
+}
+.shi .dan form{
+	width: 7.5rem;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 0.66rem;
+	/* background: grey; */
+}
+.shi .dan form p{
+	width: 0.38rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	float: left;
+	color: red;
+}
+.shi .dan form span{
+	display: block;
+	float: left;
+	width: 1rem;
+	height: 0.72rem;
+	line-height: 0.8rem;
+	font-size: 0.42rem;
+	padding-top: 0.08rem;
+	/* background: green; */
+}
+.shi .dan form input{
+	font-size: 0.42rem;
+	width: 5.14rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	border: 0;
+	background: url('../img/moreb.png') no-repeat;
+	background-size: 100%;
+	padding-left: 0.62rem;
+	margin-bottom: 0.68rem;
+	color: #333;
+	outline: none;
+}
+.shi .dan form .c{
+	width: 1.38rem;
+	text-align: center;
+}
+.shi .dan form select{
+	font-size: 0.42rem;
+	width: 5.75rem;
+	height: 0.82rem;
+	line-height: 0.8rem;
+	border: 0;
+	background: url('../img/moreb.png') no-repeat;
+	background-size: 100%;
+	padding-left: 0.62rem;
+	margin-bottom: 0.68rem;
+	color: #333;
+	outline: none;
+}
+.shi a{
+	display: block;
+	width:4.36rem;
+	height: 1.18rem;
+	background: url('../img/more.png') no-repeat;
+	background-size: 100%; 
+	margin: -1.2rem auto;
+	font-size: 0.38rem;
+	color: white;
+	text-align: center;
+	line-height: 1.18rem;
+}
+/* 试学结束 */
+
+
+/* 版权开始 */
+.ban{
+	width: 100%;
+	height: 1.24rem;
+	text-align: center;
+	line-height: 0.64rem;
+	padding-top: 0.1rem;
+	margin-top: 1.2rem;
+}
+/* 版权结束 */
+
+
+/* xu */
+.xu{
+	width: 100%;
+	height: 1.32rem;
+}
+
+
+/* 咨询开始 */
+.q{
+	width: 100%;
+	height: 1.32rem;
+	background: #E7E7E7;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+}
+.q a:nth-child(1){
+	width: 30%;
+	height: 1.32rem;
+}
+.q a:nth-child(1) span{
+	font-size: 0.38rem;
+	width: 1.5rem;
+	height: 1.32rem;
+	margin-left: 0.15rem;
+	line-height: 1.32rem;
+}
+.q a:nth-child(1) div{
+	width: 0.52rem;
+	height: 0.52rem;
+	margin-top: 0.41rem;
+	margin-left: 0.396rem;
+	background: url('../img/qq.png') center center no-repeat;
+	background-size: cover;
+	float: left;
+}
+.q a:nth-child(2){
+	display: block;
+	width: 40%;
+	height: 1.32rem;
+	background: #FF8D12;
+	position: relative;
+	left: 0;
+	bottom: 0.16rem;
+	border-radius: 0.12rem;
+	line-height: 1.32rem;
+	box-shadow: 0 0 0.15rem #ff8d12;
+}
+.q a:nth-child(2) span{
+	margin-left: 0.3rem;
+	font-size: 0.42rem;
+	color: #fff;
+}
+.q a:nth-child(2) div{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-top: 0.4rem;
+	margin-left: 0.8rem;
+	background: url('../img/p.png') -2.5rem -7.66rem no-repeat;
+	background-size: 3.2rem;
+	float: left;
+}
+.q a:nth-child(3){
+	width: 30%;
+	height: 1.32rem;
+}
+.q a:nth-child(3) span{
+	font-size: 0.38rem;
+	width: 0.52rem;
+	height:1.32rem;
+	margin-left: 0.15rem;
+	line-height: 1.32rem;
+}
+.q a:nth-child(3) div{
+	width: 0.52rem;
+	height: 0.52rem;
+	margin-top: 0.41rem;
+	margin-left: 0.396rem;
+	background: url('../img/p.png') -2.4rem -7.98rem no-repeat;
+	background-size: 3rem;
+	float: left;
+}
+/* 咨询结束 */
+

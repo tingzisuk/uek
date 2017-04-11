@@ -1,0 +1,44 @@
+{
+	"index.html": {
+		"resources": [
+			"img/qq.png",
+			"img/b2.png",
+			"img/close.png",
+			"img/t4.png",
+			"WEB.html",
+			"img/p.png",
+			"CSS/index.css",
+			"img/b1.png",
+			"img/b3.png",
+			"img/bg.png",
+			"js/index.js"
+		],
+		"refer": [
+			"WEB.html"
+		]
+	},
+	"WEB.html": {
+		"resources": [
+			"img/k2.png",
+			"img/k1.png",
+			"img/ke.png",
+			"img/more.png",
+			"img/ju2.png",
+			"CSS/index2.css",
+			"js/index1.js",
+			"img/jiu.png",
+			"img/mian.png",
+			"img/bg2.png",
+			"img/r.png",
+			"img/moreb.png",
+			"img/j2.png",
+			"img/ti.png",
+			"img/line.png",
+			"img/gao.png",
+			"img/j1.png",
+			"img/bao.png",
+			"img/ling.png",
+			"img/x.png"
+		]
+	}
+}

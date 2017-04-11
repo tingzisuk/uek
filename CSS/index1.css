@@ -1,0 +1,946 @@
+/*
+* @Author: DELL
+* @Date:   2017-04-06 10:46:23
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-04-10 15:29:20
+*/
+
+*{
+	font-size: 0.3rem;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	color: #999;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	color: #6C6C6C;
+	background: #F5F6FA;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+/* 头部开始 */
+.header {
+	width:10.80rem;
+	height: 1.3rem;
+	background: rgb(0, 123, 227);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 30;
+}
+.header ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.header ul li{
+	width: 20%;
+	height: 100%;
+	text-align: center;
+}
+.header ul li a{
+	line-height: 1.3rem;
+	color: #fff;
+	font-size: 0.46rem;
+}
+/* .header .logo{
+	display: block;
+	background-image: url('../img/logo.png');
+    float: left;
+}
+.header h3{
+	display: block;
+	float: left;
+	font-size: 16px;
+	color: white;
+	margin-left: 0.16rem;
+} */
+/* 头部结束 */
+
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 7.2rem;
+	background: url('../img/bg1.png') no-repeat center center;
+	background-size: cover;
+	/* padding-top: 1.3rem; */
+	overflow: hidden;
+}
+.banner .img{
+	width: 100%;
+	height: 5.9rem;
+	margin-top: 1.3rem;
+	background: url('../img/u.png') no-repeat center center;
+	background-size: cover;
+}
+/* banner结束 */
+
+
+/* 服务开始 */
+.fu{
+	width: 100%;
+	height: auto;
+	/* background: green; */
+	margin-bottom: 0.24rem;
+}
+.fu .title{
+	width: 100%;
+	height: 2.5rem;
+}
+.fu .title h2{
+	font-size:0.5rem; 
+	width: 100%;
+	height: 0.6rem;
+	text-align: center;
+	margin: 0.2rem auto;
+	color: #333;
+	font-weight: normal;
+}
+.fu .title h2 span{
+	color: #828284;
+	font-size:0.5rem; 
+}
+.fu .title .line{
+	width: 4rem;
+	height: 0.05rem;
+	background: url('../img/line.png') no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+}
+.fu .title h3{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 0.45rem;
+	color: #ccc;
+	font-weight: normal;
+}
+.fu ul{
+	width: 100%;
+	height: 3.9rem;
+	padding: 0 0.38rem;
+	box-sizing: border-box;
+	display: flex;
+	/* justify-content: space-around; */
+}
+.fu ul li{
+	width: 33.33%;
+	height: 3.54rem;
+	margin:0 0.14rem 0.36rem ;
+	/* background: red; */
+	box-sizing: border-box;
+}
+.fu ul li div{
+	width: 100%;
+	height: 1.44rem;
+	padding-left: 1.16rem;
+	box-sizing: border-box;
+	line-height: 1.44rem;
+	color: white;
+	font-size: 0.4rem;
+}
+.fu .ul li:nth-child(1) div{
+	background: url('../img/ling.png') no-repeat;
+	background-size: cover;
+}
+.fu .ul li:nth-child(2) div{
+	background: url('../img/mian.png') no-repeat;
+	background-size: cover;
+}
+.fu .ul li:nth-child(3) div{
+	background: url('../img/jiu.png') no-repeat;
+	background-size: cover;
+}
+.fu .ul1 li:nth-child(1) div{
+	background: url('../img/ke.png') no-repeat;
+	background-size: cover;
+}
+.fu .ul1 li:nth-child(2) div{
+	background: url('../img/ti.png') no-repeat;
+	background-size: cover;
+}
+.fu .ul1 li:nth-child(3) div{
+	background: url('../img/gao.png') no-repeat;
+	background-size: cover;
+}
+.fu ul li p{
+	width: 100%;
+	height: 2.02rem;
+	border: 1px dashed #f2a111;
+	box-sizing: border-box;
+	margin-top: 0.05rem;
+	padding-top: 0.3rem;
+	text-align: center;
+}
+.fu .ul li:nth-child(2) p{
+	border: 1px dashed #2f90da;
+}
+.fu .ul li:nth-child(3) p{
+	border: 1px dashed #f87844;
+}
+.fu .ul1 li:nth-child(1) p{
+	border: 1px dashed #1bbf99;
+}
+.fu .ul1 li:nth-child(2) p{
+	border: 1px dashed #f8ce68;
+}
+.fu .ul1 li:nth-child(3) p{
+	border: 1px dashed #c16bbb;
+}
+/* 服务结束 */
+
+
+/* UI开始 */
+.ui{
+	width: 100%;
+	height: auto;
+}
+.ui .title{
+	width: 100%;
+	height: 1.85rem;
+	background: url('../img/yellow.png') no-repeat;
+	background-size: 100%;
+}
+.ui .title h2{
+	width: 100%;
+	height: 0.6rem;
+	padding-top: 0.5rem;
+	color: white;
+	text-align: center;
+	font-size: 0.5rem;
+	font-weight: normal;
+}
+.ui .title h2 span{
+	font-size: 0.5rem;
+	color: #fff;
+}
+.ui .title .line{
+	width: 4rem;
+	height: 0.05rem;
+	background: url('../img/l.png') no-repeat;
+	background-size: 100%;
+	margin: 0.05rem auto;
+}
+.ui .title h3{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 0.45rem;
+	color: #fff;
+	font-weight: normal;
+}
+.ui .nei{
+	width: 10.1rem;
+	height:auto;
+	margin: 0.72rem auto 0;
+}
+.ui .nei .p1{
+	width: 100%;
+	height: 4.5rem;
+	border: 1px dashed #030000;
+	box-sizing: border-box;
+}
+.ui .nei .p1 p{
+	font-size: 0.38rem;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+.ui .nei .p1 p span{
+	color: #00a8ff;
+	font-size: 0.4rem;
+}
+.ui .nei .j{
+	width: 100%;
+	height: 5.4rem;
+	background: url('../img/j.png') no-repeat;
+	background-size: 100%;
+}
+/* UI结束 */
+
+
+/* 就业开始 */
+.work{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: -2.2rem;
+}
+.work .title{
+	width: 100%;
+	height: 1.85rem;
+	background: url('../img/blue.png') no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.work .title h2{
+	width: 100%;
+	height: 0.6rem;
+	padding-top: 0.5rem;
+	color: white;
+	text-align: center;
+	font-size: 0.5rem;
+	
+}
+.work .title h2 span{
+	font-size: 0.5rem;
+	color: #fff;
+	font-weight: normal;
+}
+.work .title .line{
+	width: 4rem;
+	height: 0.05rem;
+	background: url('../img/l.png') no-repeat;
+	background-size: 100%;
+	margin: 0.05rem auto;
+}
+.work .title h3{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 0.45rem;
+	color: #fff;
+	font-weight: normal;
+}
+.work .shu{
+	width: 100%;
+	height: auto;
+	background: #1b1d32;
+	margin-top: -0.3rem;
+	padding-top: 0.4rem;
+	padding-bottom: 0.07rem;
+}
+.work .shu .ti{
+	color: #fff;
+	width: 3.62rem;
+	height: 1.05rem;
+	border-bottom: 1px dashed #fff;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0.45rem;
+	line-height: 0.9rem;
+/* 	border-bottom: 1px solid #fff; */
+}
+.work .shu .ti .l{
+	width: 100%;
+	height: 1px;
+	background: #fff;
+}
+.work .shu .ju{
+	width:10.1rem; 
+	height: 6rem;
+	margin:0.3rem 0.35rem;
+	background: url('../img/ju.png') no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.work .shu .ju div:nth-child(1){
+	width: 1.24rem;
+	height: 0.48rem;
+	background: yellow;
+	position: absolute;
+	top: 0.7rem;
+	left: 1.58rem;
+}
+.work .shu .ju div:nth-child(2){
+	width: 1.9rem;
+	height: 0.48rem;
+	background: #1dffbd;
+	position: absolute;
+	top: 1.58rem;
+	left: 1.58rem;
+}
+.work .shu .ju div:nth-child(3){
+	width: 6.7rem;
+	height: 0.48rem;
+	background: #0c51ff;
+	position: absolute;
+	top: 2.45rem;
+	left: 1.58rem;
+}
+.work .shu .ju div:nth-child(4){
+	width: 4rem;
+	height: 0.48rem;
+	background: #00a8ff;
+	position: absolute;
+	top: 3.35rem;
+	left: 1.58rem;
+}
+.work .shu .ju div:nth-child(5){
+	width: 1.36rem;
+	height: 0.48rem;
+	background: #1befe8;
+	position: absolute;
+	top: 4.25rem;
+	left: 1.58rem;
+}
+.work .zi{
+	width:10.1rem; 
+	height: 6.94rem;
+	margin:0.3rem 0.35rem;
+	display: flex;
+	justify-content: space-between;
+}
+.work .zi ul{
+	width: 4.9rem;
+	height: 6.94rem;
+	margin-top: 0.46rem;
+}
+.work .zi ul li{
+	width: 100%;
+	height: 3.4rem;
+	margin-top: -0.1rem;
+	padding-top: 0.21rem;
+	background: url('../img/z.png') no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+.work .zi ul li p{
+	text-align: center;
+	color: #fff;
+	line-height: 0.53rem;
+}
+.work .zi ul li span{
+	width: 100%;
+	height: auto;
+	font-size: 0.44rem;
+	text-align: center;
+	color: #fff;
+	line-height: 1.16rem;
+}
+.work .shu a{
+	display: block;
+	width:4.36rem;
+	height: 1.18rem;
+	background: url('../img/more.png') no-repeat;
+	background-size: 100%; 
+	margin: 0.6rem auto;
+	font-size: 0.38rem;
+	color: white;
+	text-align: center;
+	line-height: 1.18rem;
+}
+/* 就业结束 */
+
+
+/* 学员信息开始 */
+.xue{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: -2.5rem;
+}
+.xue .title{
+	width: 100%;
+	height: 1.85rem;
+	background: url('../img/yellow.png') no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.xue .title h2{
+	width: 100%;
+	height: 0.6rem;
+	padding-top: 0.5rem;
+	color: white;
+	text-align: center;
+	font-size: 0.5rem;
+	
+}
+.xue .title h2 span{
+	font-size: 0.5rem;
+	color: #fff;
+	font-weight: normal;
+}
+.xue .title .line{
+	width: 4rem;
+	height: 0.05rem;
+	background: url('../img/l.png') no-repeat;
+	background-size: 100%;
+	margin: 0.05rem auto;
+}
+.xue .title h3{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 0.45rem;
+	color: #fff;
+	font-weight: normal;
+}
+.xue .nei{
+	width:10.1rem;
+	height: 5.9rem; 
+	margin: 0.57rem auto;
+}
+.xue .nei .ti{
+	width: 100%;
+	height: 0.9rem;
+	background: white;
+	display: flex;
+}
+.xue .nei .ti p{
+	width: 1.88rem;
+	height: 0.9rem;
+	background: #40abfd;
+	text-align: center;
+	border-radius: 0.15rem 0.15rem 0 0;
+	color: #fff;
+	line-height: 0.9rem;
+}
+.xue .nei .ti p:nth-child(2){
+	width: 2.6rem;
+	height: 0.9rem;
+	background: #219eff;
+}
+.xue .nei .ti p:nth-child(3){
+	width: 5.62rem;
+	height: 0.9rem;
+	background: #118ded;
+}
+.xue .nei .in{
+	width: 100%;
+	height: 5rem;	
+}
+.xue .nei .in ul{
+	border: 1px solid #1875ff;
+	background: #F5F6FA;
+}
+.xue .nei .in ul li{
+	width: 100%;
+	height: 1rem;
+}
+.xue .nei .in ul .li{
+	background: rgb(238, 238, 238);
+}
+.xue .nei .in ul li p{
+	font-size: 0.35rem;
+	float: left;
+	width: 1.88rem;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	white-space: nowrap;
+}
+.xue .nei .in ul li p:nth-child(2){
+	width: 2.6rem;
+	color: #feaf34;
+}
+.xue .nei .in ul li p:nth-child(3){
+	width: 5.56rem;
+}
+.xue a{
+	display: block;
+	width:4.36rem;
+	height: 1.18rem;
+	background: url('../img/more.png') no-repeat;
+	background-size: 100%; 
+	margin: 0.6rem auto;
+	font-size: 0.38rem;
+	color: white;
+	text-align: center;
+	line-height: 1.18rem;
+}
+/* 学员信息结束 */
+
+
+/* 课程开始 */
+.ke{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: -2.5rem;
+}
+.ke .title{
+	width: 100%;
+	height: 1.85rem;
+	background: url('../img/green.png') no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.ke .title h2{
+	width: 100%;
+	height: 0.6rem;
+	padding-top: 0.5rem;
+	color: white;
+	text-align: center;
+	font-size: 0.5rem;
+	
+}
+.ke .title h2 span{
+	font-size: 0.5rem;
+	color: #fff;
+	font-weight: normal;
+}
+.ke .title .line{
+	width: 4rem;
+	height: 0.05rem;
+	background: url('../img/l.png') no-repeat;
+	background-size: 100%;
+	margin: 0.05rem auto;
+}
+.ke .title h1{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 0.45rem;
+	color: #fff;
+	font-weight: normal;
+}
+.ke .nei{
+	width:10.1rem;
+	height: auto; 
+	margin: 0 auto;
+}
+.ke .nei ul{
+	width: 100%;
+	height: auto;
+	padding-top: 0.46rem;
+}
+.ke .nei ul li{
+	width: 100%;
+	height: auto;
+	margin-top: 0.56rem;
+	background: #fff;
+	border-top: 2px solid #f88c00;
+}
+.ke .nei ul li:nth-child(3){
+	border-top: 2px solid #eb6877;
+}
+.ke .nei ul li:nth-child(4){
+	border-top: 2px solid #22ac38;
+}
+.ke .nei ul li:nth-child(2){
+	border-top: 2px solid #32afff;
+}
+.ke .nei ul li:nth-child(5){
+	border-top: 2px solid #ea61d5;
+}
+.ke .nei ul li:nth-child(6){
+	border-top: 2px solid #13e5e3;
+}
+.ke .nei ul li span{
+	display: block;
+	width: 100%;
+	height: 1.18rem;
+	line-height: 1.18rem;
+	font-size: 0.4rem;
+	padding-left: 0.26rem;
+	border-bottom: 1px dashed #a0a0a0;
+}
+.ke .nei ul li p{
+	font-size: 0.38rem;
+	padding:0.3rem 0.26rem;
+	line-height: 0.6rem;
+	text-align: justify;
+}
+/* 课程结束 */
+
+
+/* 设计开始 */
+.she{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: -1.8rem;
+}
+.she .title{
+	width: 100%;
+	height: 1.85rem;
+	background: url('../img/blue.png') no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.she .title h2{
+	width: 100%;
+	height: 0.6rem;
+	padding-top: 0.5rem;
+	color: white;
+	text-align: center;
+	font-size: 0.5rem;
+	
+}
+.she .title h2 span{
+	font-size: 0.5rem;
+	color: #fff;
+	font-weight: normal;
+}
+.she .title .line{
+	width: 4rem;
+	height: 0.05rem;
+	background: url('../img/l.png') no-repeat;
+	background-size: 100%;
+	margin: 0.05rem auto;
+}
+.she .title h1{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 0.45rem;
+	color: #fff;
+	font-weight: normal;
+}
+.she .nei{
+	width:10.1rem;
+	height: auto; 
+	margin: 0 auto;
+}
+.she .nei ul{
+	width: 100%;
+	height: auto;
+	margin-top: 0.75rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.she .nei ul li{
+	width: 4.98rem;
+	height: 3.8rem;
+	background: url('../img/p1.png') no-repeat;
+	background-size: 100%;
+	margin-bottom: 0.1rem;
+}
+.she .nei ul li:nth-child(2){
+	background: url('../img/p2.png') no-repeat;
+	background-size: 100%;
+}
+.she .nei ul li:nth-child(3){
+	width: 10.1rem;
+	height: 3.8rem;
+	background: url('../img/p3.png') no-repeat;
+	background-size: 100%;
+}
+.she .nei ul li:nth-child(4){
+	background: url('../img/p4.png') no-repeat;
+	background-size: 100%;
+}
+.she .nei ul li:nth-child(5){
+	background: url('../img/p5.png') no-repeat;
+	background-size: 100%;
+}
+/* 设计结束 */
+
+
+/* 试学开始 */
+.shi{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: -1.2rem;
+}
+.shi .title{
+	width: 100%;
+	height: 1.85rem;
+	background: url('../img/yellow.png') no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.shi .title h2{
+	width: 100%;
+	height: 0.6rem;
+	padding-top: 0.5rem;
+	color: white;
+	text-align: center;
+	font-size: 0.5rem;
+	
+}
+.shi .title h2 span{
+	font-size: 0.5rem;
+	color: #fff;
+	font-weight: normal;
+}
+.shi .title .line{
+	width: 4rem;
+	height: 0.05rem;
+	background: url('../img/l.png') no-repeat;
+	background-size: 100%;
+	margin: 0.05rem auto;
+}
+.shi .title h1{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 0.45rem;
+	color: #fff;
+	font-weight: normal;
+}
+.shi .g{
+	width: 100%;
+	height: 1.12rem;
+	text-align: center;
+	line-height: 1.12rem;
+	color: #000;
+	font-size: 0.38rem;
+}
+.shi .dan{
+	width: 100%;
+	height: 7.6rem;
+	/* background: green; */
+}
+.shi .dan form{
+	width: 7.5rem;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 0.66rem;
+	/* background: grey; */
+}
+.shi .dan form p{
+	width: 0.38rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	float: left;
+	color: red;
+}
+.shi .dan form span{
+	display: block;
+	float: left;
+	width: 1rem;
+	height: 0.72rem;
+	line-height: 0.8rem;
+	font-size: 0.42rem;
+	padding-top: 0.08rem;
+	/* background: green; */
+}
+.shi .dan form input{
+	font-size: 0.42rem;
+	width: 5.14rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	border: 0;
+	background: url('../img/moreb.png') no-repeat;
+	background-size: 100%;
+	padding-left: 0.62rem;
+	margin-bottom: 0.68rem;
+	color: #333;
+	outline: none;
+}
+.shi .dan form .c{
+	width: 1.38rem;
+	text-align: center;
+}
+.shi .dan form select{
+	font-size: 0.42rem;
+	width: 5.75rem;
+	height: 0.82rem;
+	line-height: 0.8rem;
+	border: 0;
+	background: url('../img/moreb.png') no-repeat;
+	background-size: 100%;
+	padding-left: 0.62rem;
+	margin-bottom: 0.68rem;
+	color: #333;
+	outline: none;
+}
+.shi a{
+	display: block;
+	width:4.36rem;
+	height: 1.18rem;
+	background: url('../img/more.png') no-repeat;
+	background-size: 100%; 
+	margin: -1.2rem auto;
+	font-size: 0.38rem;
+	color: white;
+	text-align: center;
+	line-height: 1.18rem;
+}
+/* 试学结束 */
+
+
+/* 版权开始 */
+.ban{
+	width: 100%;
+	height: 1.24rem;
+	text-align: center;
+	line-height: 0.64rem;
+	padding-top: 0.1rem;
+}
+/* 版权结束 */
+
+
+/* xu */
+.xu{
+	width: 100%;
+	height: 1.32rem;
+}
+
+
+/* 咨询开始 */
+.q{
+	width: 100%;
+	height: 1.32rem;
+	background: #E7E7E7;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+}
+.q a:nth-child(1){
+	width: 30%;
+	height: 1.32rem;
+}
+.q a:nth-child(1) span{
+	font-size: 0.38rem;
+	width: 1.5rem;
+	height: 1.32rem;
+	margin-left: 0.15rem;
+	line-height: 1.32rem;
+}
+.q a:nth-child(1) div{
+	width: 0.52rem;
+	height: 0.52rem;
+	margin-top: 0.41rem;
+	margin-left: 0.396rem;
+	background: url('../img/qq.png') center center no-repeat;
+	background-size: cover;
+	float: left;
+}
+.q a:nth-child(2){
+	display: block;
+	width: 40%;
+	height: 1.32rem;
+	background: #FF8D12;
+	position: relative;
+	left: 0;
+	bottom: 0.16rem;
+	border-radius: 0.12rem;
+	line-height: 1.32rem;
+	box-shadow: 0 0 0.15rem #ff8d12;
+}
+.q a:nth-child(2) span{
+	margin-left: 0.3rem;
+	font-size: 0.42rem;
+	color: #fff;
+}
+.q a:nth-child(2) div{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-top: 0.4rem;
+	margin-left: 0.8rem;
+	background: url('../img/p.png') -2.5rem -7.66rem no-repeat;
+	background-size: 3.2rem;
+	float: left;
+}
+.q a:nth-child(3){
+	width: 30%;
+	height: 1.32rem;
+}
+.q a:nth-child(3) span{
+	font-size: 0.38rem;
+	width: 0.52rem;
+	height:1.32rem;
+	margin-left: 0.15rem;
+	line-height: 1.32rem;
+}
+.q a:nth-child(3) div{
+	width: 0.52rem;
+	height: 0.52rem;
+	margin-top: 0.41rem;
+	margin-left: 0.396rem;
+	background: url('../img/p.png') -2.4rem -7.98rem no-repeat;
+	background-size: 3rem;
+	float: left;
+}
+/* 咨询结束 */

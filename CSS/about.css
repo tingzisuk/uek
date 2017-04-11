@@ -1,0 +1,276 @@
+/*
+* @Author: DELL
+* @Date:   2017-04-10 21:49:50
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-04-11 09:57:47
+*/
+*{
+	font-size: 0.3rem;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	color: #999;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	color: #6C6C6C;
+	background: #F5F6FA;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* 头部开始 */
+.header {
+	width:10.80rem;
+	height: 1.3rem;
+	background: rgb(0, 123, 227);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 30;
+	overflow: hidden;
+}
+.header ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.header ul li{
+	width: 20%;
+	height: 100%;
+	text-align: center;
+}
+.header ul li a{
+	line-height: 1.3rem;
+	color: #fff;
+	font-size: 0.46rem;
+}
+/* .header .logo{
+	display: block;
+	background-image: url('../img/logo.png');
+    float: left;
+}
+.header h3{
+	display: block;
+	float: left;
+	font-size: 16px;
+	color: white;
+	margin-left: 0.16rem;
+} */
+/* 头部结束 */
+
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 6rem;
+	background: url('../img/bg5.jpg') no-repeat center center;
+	background-size: cover;
+	/* padding-top: 1.3rem; */
+	overflow: hidden;
+	position: relative;
+}
+/* banner结束 */
+
+
+/* 内容开始 */
+.content{
+	width: 100%;
+	height: auto;
+}
+.top{
+	width: 100%;
+	height: 1.3rem;
+	padding-left: 0.35rem;
+	line-height: 1.3rem;
+}
+.top a{
+	width: 0.8rem;
+	height: 100%;
+	color: #494747;
+	float: left;
+}
+.top span{
+	width: auto;
+	height: auto;
+	float: left;
+}
+.top .a1{
+	width: auto;
+}
+.nei{
+	width: 10.1rem;
+	height: 19.7rem;
+	background: #fff;
+	margin: 0 auto;
+	padding-top: 0.16rem;
+}
+.nei .first{
+	width: 100%;
+	height: 5.5rem;
+	padding-right:0.2rem;
+	box-sizing: border-box;
+}
+.nei .first .ti{
+	width: 9.3rem;
+	height: 0.9rem;
+	border-bottom: 0.03rem dashed #666;
+	float: right;
+	color: #333;
+	font-size: 0.4rem;
+	position: relative;
+}
+.nei .first .ti div{
+	width: 0.12rem;
+	height: 0.36rem;
+	background:#01b5ff;
+	position: absolute;
+	top: 0.1rem;
+	left: -0.4rem;
+}
+.nei .first span{
+	width: 9.3rem;
+	height: auto;
+	float: right;
+	line-height: 0.6rem;
+	margin-top: 0.2rem;
+}
+.nei .second{
+	height: 4.2rem;
+}
+.nei .second img{
+	width: 1.95rem;
+	height: 1.95rem;
+	margin: 0.55rem;
+}
+.nei .second .img{
+	float: right;
+}
+.nei .third{
+	height: 2.3rem;
+} 
+.nei .forth{
+	height: 2.3rem;
+} 
+.nei .fifth{
+	height: 2.3rem;
+} 
+.nei .bo{
+	width: 100%;
+	height: 0.12rem;
+	background: #f5f6fa;
+}
+.first{
+	margin-top: 0.3rem;
+}
+.nei>img{
+	display: block;
+	width: 2.4rem;
+	height: 2.4rem;
+	margin: 0.2rem auto 1rem;
+}
+/* 内容结束 */
+
+
+/* 版权开始 */
+.ban{
+	width: 100%;
+	height: 1.24rem;
+	text-align: center;
+	line-height: 0.64rem;
+	padding: 0.1rem 0;
+	margin-top:3rem;
+}
+/* 版权结束 */
+
+
+/* xu */
+.xu{
+	width: 100%;
+	height: 1.35rem;
+}
+
+
+/* 咨询开始 */
+.q{
+	width: 100%;
+	height: 1.32rem;
+	background: #E7E7E7;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+}
+.q a:nth-child(1){
+	width: 30%;
+	height: 1.32rem;
+}
+.q a:nth-child(1) span{
+	font-size: 0.38rem;
+	width: 1.5rem;
+	height: 1.32rem;
+	margin-left: 0.15rem;
+	line-height: 1.32rem;
+}
+.q a:nth-child(1) div{
+	width: 0.52rem;
+	height: 0.52rem;
+	margin-top: 0.41rem;
+	margin-left: 0.396rem;
+	background: url('../img/qq.png') center center no-repeat;
+	background-size: cover;
+	float: left;
+}
+.q a:nth-child(2){
+	display: block;
+	width: 40%;
+	height: 1.32rem;
+	background: #FF8D12;
+	position: relative;
+	left: 0;
+	bottom: 0.16rem;
+	border-radius: 0.12rem;
+	line-height: 1.32rem;
+	box-shadow: 0 0 0.15rem #ff8d12;
+}
+.q a:nth-child(2) span{
+	margin-left: 0.3rem;
+	font-size: 0.42rem;
+	color: #fff;
+}
+.q a:nth-child(2) div{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-top: 0.4rem;
+	margin-left: 0.8rem;
+	background: url('../img/p.png') -2.5rem -7.66rem no-repeat;
+	background-size: 3.2rem;
+	float: left;
+}
+.q a:nth-child(3){
+	width: 30%;
+	height: 1.32rem;
+}
+.q a:nth-child(3) span{
+	font-size: 0.38rem;
+	width: 0.52rem;
+	height:1.32rem;
+	margin-left: 0.15rem;
+	line-height: 1.32rem;
+}
+.q a:nth-child(3) div{
+	width: 0.52rem;
+	height: 0.52rem;
+	margin-top: 0.41rem;
+	margin-left: 0.396rem;
+	background: url('../img/p.png') -2.4rem -7.98rem no-repeat;
+	background-size: 3rem;
+	float: left;
+}
+/* 咨询结束 */
+
+
+
